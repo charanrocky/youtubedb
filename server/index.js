@@ -22,6 +22,8 @@ const VideoSchema = new mongoose.Schema({
   duration: String,
 });
 
+//MONGO_URL=mongodb+srv://charanrocky441_db_user:rocky@cluster0.dvyvxp0.mongodb.net/
+
 const Video = mongoose.model("Video", VideoSchema);
 
 // YouTube API
